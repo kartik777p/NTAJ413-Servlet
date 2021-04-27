@@ -1,0 +1,11 @@
+<web-app>
+  <display-name>DateApp-Date</display-name>
+  <servlet>
+   <servlet-name>date</servlet-name>
+   <servlet-class>com.nit.servlet.DateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+   <servlet-name>date</servlet-name>
+   <url-pattern>/dateurl</url-pattern>
+  </servlet-mapping>
+</web-app>
