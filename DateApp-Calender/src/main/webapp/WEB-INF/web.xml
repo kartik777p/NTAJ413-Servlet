@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>calendar</servlet-name>
+		<servlet-class>com.nit.servlet.DateServletUsingCalendar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>calendar</servlet-name>
+		<url-pattern>/calendar</url-pattern>
+	</servlet-mapping>
+</web-app>
